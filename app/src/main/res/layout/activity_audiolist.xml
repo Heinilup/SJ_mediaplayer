@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+  <ListView 
+      android:id="@+id/lv_audiolist"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      />
+    <TextView 
+        android:id="@+id/lv_noaudio"
+        android:layout_centerInParent="true"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:text="亲！暂时没有音乐文件...！！"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+</RelativeLayout>
+ 

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+<GridView 
+    android:layout_marginLeft="50dip"
+    android:layout_marginRight="50dip"
+    android:verticalSpacing="20dip"
+    android:horizontalSpacing="30dip"
+    android:id="@+id/gridview"
+    android:layout_marginTop="30dip"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:numColumns="2"    
+    ></GridView>
+    
+
+</RelativeLayout>

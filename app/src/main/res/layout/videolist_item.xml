@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dip" >
+    <ImageView 
+        android:layout_centerVertical="true"
+        android:id="@+id/vi_icon"
+        android:src="@drawable/play_item"
+        android:layout_width="60dip"
+        android:layout_height="60dip"
+        />
+    <TextView 
+        android:id="@+id/vi_name"
+        android:layout_marginTop="20dip"
+        android:layout_marginLeft="5dip"
+        android:layout_toRightOf="@id/vi_icon"
+        android:textSize="16sp"
+        android:textColor="#ffffff"
+        android:text="视频名称"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <TextView 
+        android:id="@+id/vi_duration"
+        android:layout_marginLeft="5dip"
+        android:layout_below="@id/vi_name"
+        android:layout_toRightOf="@id/vi_icon"
+        android:textSize="14sp"
+        android:textColor="#ffffff"
+        android:text="视频的时长"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+        <TextView 
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/vi_size"
+        android:layout_marginRight="5dip"
+        android:textSize="14sp"
+        android:textColor="#ffffff"
+        android:text="视频的大小"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+        <View 
+            
+            android:layout_alignParentBottom="true"
+            android:background="#66ffffff"
+            android:layout_width="fill_parent"
+            android:layout_height="0.1dip"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            />
+    
+
+</RelativeLayout>
